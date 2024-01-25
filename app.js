@@ -2,6 +2,9 @@ let taskList=document.querySelector("#task-list");
 let todoApp=document.querySelector(".todo-container");
 let inputBox=document.querySelector("input");
 
+document.addEventListener("dblclick", function(e) {
+e.preventDefault();
+});
 
 function addTask()
 {
